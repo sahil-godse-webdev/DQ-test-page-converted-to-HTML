@@ -1,0 +1,855 @@
+<html>
+    <head>
+        <title>Profile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/f7dfb13f57.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script>
+                $(document).ready(function(){
+                  var i=1;
+                  $("#addc_proj").click(function(){
+                    i++;  
+                    $("#addtoc_proj").append("\
+                    <div id='critical_proj' class='row mt-5 mb-5'>\
+                                <div class='p-2' style='width: 95%; color: rgb(151,151,151); border-bottom: 1px solid rgb(230,230,230);'>\
+                                    Critical project #"+i+"\
+                                </div>\
+                                <div class='search_categories px-2' style='width: 95%;'>\
+                                    <input type='text' placeholder='Psychological effecct of cancer on care-givers' value='Psychological effecct of cancer on care-givers'>\
+                                    <i class='fas fa-pen mt-3' style='color: rgb(203,203,203);'></i>\
+                                </div>\
+                                <div class='col-sm-4 mr-5'>\
+                                    <div class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>Healthcare</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class='col-sm-3 mr-3'>\
+                                    <div class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>Mental health</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class='col-sm-3'>\
+                                    <div class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>Research</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class='col-sm-4 mr-5'>\
+                                    <div class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>3 people</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class='col-sm-3 mr-3'>\
+                                    <div class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>2 hard skills</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class='col-sm-3'>\
+                                    <div class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>4 soft skills</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class='col-sm-7' style='margin-right: 64px;'>\
+                                    <div style='width: 119%;' class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>Lorem ipsumdolor sit amet consecteur</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class='col-sm-3'>\
+                                    <div class='row search_categories p-2'>\
+                                        <div class='select'>\
+                                            <select>\
+                                                <option>3 months</option>\
+                                            </select>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                            </div>\
+                    ");
+                    
+                    $('html,body').animate({
+                        scrollTop: $("#addtoc_proj").offset().top},
+                        'slow');
+                  });
+                  var j=1;
+                  $("#addp_respo").click(function(){
+                    j++;
+                    $("#addtop_respo").append("\
+                    <div id='position' class='row mt-5 mb-5'>\
+                                    <div class='p-2' style='width: 95%; color: rgb(151,151,151); border-bottom: 1px solid rgb(230,230,230);'>\
+                                        Position of responsibility #"+j+"\
+                                    </div>\
+                                    <div class='col-sm-8 mr-2'>\
+                                        <div class='row search_categories px-2'>\
+                                            <input type='text' placeholder='Contingent leader' value='Contingent leader'>\
+                                            <i class='fas fa-pen mt-3' style='color: rgb(203,203,203);'></i>\
+                                        </div>\
+                                        <div class='row search_categories px-2'>\
+                                            <input type='text' placeholder='Contingent for Mental Health Conference' value='Contingent for Mental Health Conference'>\
+                                            <i class='fas fa-pen mt-3' style='color: rgb(203,203,203);'></i>\
+                                        </div>\
+                                        <div class='row'>\
+                                            <div class='col-sm-5 mr-3'>\
+                                                <div class='row search_categories p-2'>\
+                                                    <div class='select'>\
+                                                        <select>\
+                                                            <option>Mental health</option>\
+                                                        </select>\
+                                                    </div>\
+                                                </div>\
+                                            </div>\
+                                            <div class='col-sm-6'>\
+                                                <div class='row search_categories py-2'>\
+                                                    <div class='select'>\
+                                                        <select>\
+                                                            <option>Inter-college (Friendly)</option>\
+                                                        </select>\
+                                                    </div>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class='row'>\
+                                            <div class='col-sm-5 mr-3'>\
+                                                <div class='row search_categories p-2'>\
+                                                    <div class='select'>\
+                                                        <select>\
+                                                            <option>1 hard skill</option>\
+                                                        </select>\
+                                                    </div>\
+                                                </div>\
+                                            </div>\
+                                            <div class='col-sm-6'>\
+                                                <div class='row search_categories py-2'>\
+                                                    <div class='select'>\
+                                                        <select>\
+                                                            <option>5 soft skills</option>\
+                                                        </select>\
+                                                    </div>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class='row search_categories p-2' style='width: 102.5%;'>\
+                                            <div class='select'>\
+                                                <select>\
+                                                    <option>Adipisicing elit, sed do eiusmod tempor</option>\
+                                                </select>\
+                                            </div>\
+                                        </div>\
+                                    </div>\
+                                    <div class='col-sm-3'>\
+                                        <div class='col-sm-12'>\
+                                            <div class='row search_categories py-2'>\
+                                                <div class='select'>\
+                                                    <select>\
+                                                        <option>Senior member</option>\
+                                                    </select>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class='col-sm-12'>\
+                                            <div class='row search_categories py-2'>\
+                                                <div class='select'>\
+                                                    <select>\
+                                                        <option>Team</option>\
+                                                    </select>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class='col-sm-12'>\
+                                            <div class='row search_categories py-2'>\
+                                                <div class='select'>\
+                                                    <select>\
+                                                        <option>5-10 people</option>\
+                                                    </select>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class='col-sm-12'>\
+                                            <div class='row search_categories'>\
+                                                <div class='select'>\
+                                                    <input type='date'>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class='col-sm-12'>\
+                                            <div class='row search_categories'>\
+                                                <div class='select'>\
+                                                    <input type='date' class='form-control'>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                    ");
+                  });
+                  $(".slider").rangeslider();
+
+                  $('#check').click(function(){
+
+                    if($(this).prop("checked") == true){
+                        //alert("Checkbox is checked.");
+                        $("#decision").prop("disabled", false);
+                    }
+
+                    else if($(this).prop("checked") == false){
+                        //alert("Checkbox is unchecked.");
+                        $("#decision").prop("disabled", true);
+                    }
+
+                    });
+                });
+
+                $.fn.rangeslider = function(options) {
+                var obj = this;
+                var defautValue = obj.attr("value");
+                obj.wrap("<span class='range-slider'></span>");
+                obj.after("<span class='slider-container'><span class='bar'><span></span></span><span class='bar-btn'><span>0</span></span></span>");
+                obj.attr("oninput", "updateSlider(this)");
+                updateSlider(this);
+                return obj;
+                };
+
+                function updateSlider(passObj) {
+                var obj = $(passObj);
+                var value = obj.val();
+                var min = obj.attr("min");
+                var max = obj.attr("max");
+                var range = Math.round(max - min);
+                var percentage = Math.round((value - min) * 100 / range);
+                var nextObj = obj.next();
+                nextObj.find("span.bar-btn").css("left", percentage + "%");
+                nextObj.find("span.bar > span").css("width", percentage + "%");
+                nextObj.find("span.bar-btn > span").text(percentage);
+                };
+
+        </script>        
+
+        <style>
+
+            .maindiv{
+                width: 100%;
+                height: auto;
+            }
+            .header{
+                height: auto;
+                background: rgb(217,217,217);
+            }
+            .search_categories{
+                background: #fff;
+                border-bottom: 1px solid rgb(151,151,151);           
+            }
+            .search_categories .select{
+                width: 100%;
+            }
+            .search_categories .select select{
+                background: transparent;
+                line-height: 1;
+                border: 0;
+                width: 100%;
+                color: rgb(126,126,126);
+                position: relative;
+                z-index: 10;
+                font-size: 1em;
+            }
+            .search_categories input{
+                background: transparent;
+                line-height: 1;
+                border: 0;
+                width: 93%;
+                color: rgb(126,126,126);
+                position: relative;
+                z-index: 10;
+                font-size: 1em;
+                padding: 11.3px 0;
+            }
+            .btns-grp-l{
+                color: rgb(126,126,126); background: rgb(216,216,216); border: 1px solid rgb(195,195,195); border-radius: 0;
+            } 
+            .range-slider {
+                display: inline-block;
+                width: 100%;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                position: relative;
+                padding-bottom: 15px;
+                }
+                .range-slider > input {
+                opacity: 0;
+                width: 100%;
+                position: relative;
+                z-index: 5;
+                margin-top: 72px;
+                -webkit-appearance: none;
+                cursor: pointer;
+                }
+                .range-slider > input::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                z-index: 100;
+                position: relative;
+                width: 50px;
+                height: 30px;
+                -webkit-border-radius: 10px;
+                }
+                .range-slider > span.slider-container {
+                min-height: 110px;
+                display: inline-block;
+                position: absolute;
+                top: 70px;
+                left: -8px;
+                right: 46px;
+                z-index: 3;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                }
+                .range-slider > span.slider-container > span.bar {
+                background-color: rgb(230,230,230);
+                display: inline-block;
+                position: absolute;
+                z-index: 1;
+                top: 12px;
+                left: 10px;
+                right: -42px;
+                height: 11px;
+                overflow: hidden;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                }
+                .range-slider > span.slider-container > span.bar > span {
+                background: rgb(0,162,164);
+                display: inline-block;
+                float: left;
+                height: 11px;
+                width: 0%;
+                }
+                .range-slider > span.slider-container > span.bar-btn {
+                display: inline-block;
+                position: absolute;
+                text-align: center;
+                background: #fff;
+                left: -25px;
+                top: -65px;
+                border-radius: 3px;
+                }
+                .range-slider > span.slider-container > span.bar-btn > span{
+                    display: none;
+                }
+                .range-slider > span.slider-container > span.bar-btn:after {
+                content: "";
+                border: 2px solid #fff;
+                background-color: #fff;
+                border-radius: 20px;
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                position: absolute;
+                left: 8px;
+                top: 63px;
+                z-index: 3;
+                -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+                -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+                }
+                *, *:after, *:before {
+                box-sizing: border-box;
+                }
+                input#check {
+                position: absolute;
+                opacity: 0;
+                }
+                input#check:checked + label svg path {
+                stroke-dashoffset: 0;
+                }
+                input#check:focus + label {
+                transform: scale(1.03);
+                }
+                #check + label {
+                display: block;
+                border: 1px solid rgb(0,162,164);
+                width: var(--d);
+                height: var(--d);
+                border-radius: 14px;
+                cursor: pointer;
+                transition: all .2s ease;
+                }
+                #check + label:active {
+                transform: scale(1.05);
+                border-radius: 30px;
+                }
+                #check + label svg {
+                pointer-events: none;
+                }
+                #check + label svg path {
+                fill: none;
+                stroke: rgb(0,162,164);
+                stroke-width: 4px;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-dasharray: 100;
+                stroke-dashoffset: 101;
+                transition: all 350ms cubic-bezier(1, 0, 0.37, 0.91);
+                }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="maindiv">
+            <div class="header row m-0 container-fluid">
+                <div class="col-sm-7 h-100 m-0">
+                    <div class="row h-100 pl-5">
+                        
+                            <img src="profile.png" alt="profile" style="cursor: pointer; border-radius: 100px !important; width: 70px; height: 70px;" class="mx-5 img-thumbnail rounded d-block img-fluid" >
+                        
+                        <div class="col-sm-9 m-0 col-12 pt-3">
+                            <h5 class="h5 m-0" style="color: rgb(78,78,78); font-family: 'M PLUS 1p', sans-serif;">Narita Sabharwal</h5>
+                            <h6 class="h6 m-0" style="color: rgb(78,78,78); font-family: 'M PLUS 1p', sans-serif;">Monday, 10th May</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 m-0 h-100">
+                    <div class="row h-100">
+                        <div class="col-sm-5 col-6 pt-4">
+                            <h5 class="h5 m-0 text-right" style="color: rgb(78,78,78); font-family: 'M PLUS 1p', sans-serif;">Notifications</h5>
+                        </div>
+                        <div class="col-sm-7 col-6 pt-3" style="color: #E3E3E0;">
+                            <div class="row ">
+                                <div class="col-sm-2 col-3 mr-3 px-3 py-2" style="cursor: pointer; width: 30px; height: 45px; margin: 0; box-sizing: border-box; background: rgb(203,203,203); border-radius: 200px;">
+                                    <i style="font-size: 23px;" class="fas fa-user-plus"></i>
+                                </div>
+                                <div class="col-sm-2 col-3 mr-3 py-2 px-3" style="cursor: pointer; width: 30px; height: 45px; margin: 0; box-sizing: border-box; background: rgb(203,203,203); border-radius: 160px;">
+                                    <i style="font-size: 25px;" class="fas fa-cog"></i>
+                                </div>
+                                <div class="col-sm-2 m-0 col-3 px-3 py-2" style="cursor: pointer; width: 30px; height: 45px; box-sizing: border-box; background: rgb(203,203,203); border-radius: 160px;">
+                                    <i class="fas fa-power-off" style="font-size: 25px;"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background: rgb(244,244,244);">
+                <div class="mid-div container">
+                    <div class="row">
+                        <div class="col-sm-8 bg-white pt-5" style="box-shadow: 10px 0px rgb(35,183,185);">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="profile.png" alt="Narita Sabharwal" title="Narita Sabharwal" class="img-fluid" style="cursor: pointer; border: 5px solid rgb(216,216,216);">
+                                </div>
+                                <div class="col-sm-8 pt-3">
+                                        <h5 class="h5" style="color: rgb(126,126,126); font-family: 'M PLUS 1p', sans-serif;">Narita Sabharwal (25, Female)</h5>
+                                        <h5 class="h5" style="color: rgb(126,126,126); font-family: 'M PLUS 1p', sans-serif;">IN, Delhi, New Delhi (Civil Lines)</h5>
+                                        <h5 class="h5" style="color: rgb(126,126,126); font-family: 'M PLUS 1p', sans-serif;">Educational background: Will be auto-detected</h5>
+                                        <h5 class="h5" style="color: rgb(126,126,126); font-family: 'M PLUS 1p', sans-serif;">Alma mater: Will be auto-detected</h5>
+                                        <h5 class="h5" style="color: rgb(126,126,126); font-family: 'M PLUS 1p', sans-serif;">Core strength: Will be auto-detected</h5>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 row px-3" style="background: rgb(217,217,217); box-shadow: 10px 5px rgb(158,158,158);">
+                                <h5 class="h5 m-0 px-3 py-3" style="cursor: pointer; color: rgb(78,78,78); font-family: 'M PLUS 1p', sans-serif; border-right: 2px solid rgb(204,204,204);">Academic background</h5>
+                                <h5 class="h5 m-0 px-3 py-3" style="cursor: pointer; color: rgb(161,161,161); font-family: 'M PLUS 1p', sans-serif; border-right: 2px solid rgb(204,204,204);">Work experience</h5>
+                                <h5 class="h5 m-0 px-3 py-3" style="cursor: pointer; color: rgb(161,161,161); font-family: 'M PLUS 1p', sans-serif;">Co & Extra-curricular</h5>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-sm-4 mr-4 col-12">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>Specialization course</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row search_categories px-2">
+                                        <input type="text" placeholder="Haryana, India" value="Haryana, India">
+                                        <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                    </div>
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>Govt. body</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>2017</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row search_categories px-2">
+                                        <input type="text" placeholder="87%" value="87%">
+                                        <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-7">
+                                    <div class="row search_categories px-2">
+                                        <input type="text" placeholder="Amity University, Haryana, India" value="Amity University, Haryana, India">
+                                        <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                    </div>
+                                    <div class="row search_categories px-2">
+                                        <input type="text" placeholder="M. Phil in Clinical Psychology" value="M. Phil in Clinical Psychology">
+                                        <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                    </div>
+                                    <div class="row search_categories px-2">
+                                        <input type="text" placeholder="RCI" value="RCI">
+                                        <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                    </div>
+                                    <div class="row search_categories px-2">
+                                        <input type="text" placeholder="Clinical Psychology" value="Clinical Psychology">
+                                        <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mr-4">
+                                            <div class="row search_categories p-2">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>2 hard skills</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="row search_categories p-2">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>3 languages</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="addtoc_proj">
+                                <div id="critical_proj" class="row mt-5 mb-5">
+                                <div class="p-2" style="width: 95%; color: rgb(151,151,151); border-bottom: 1px solid rgb(230,230,230);">
+                                    Critical project #1
+                                </div>
+                                <div class="search_categories px-2" style="width: 95%;">
+                                    <input type="text" placeholder="Psychological effecct of cancer on care-givers" value="Psychological effecct of cancer on care-givers">
+                                    <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                </div>
+                                <div class="col-sm-4 mr-5">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>Healthcare</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mr-3">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>Mental health</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>Research</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mr-5">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>3 people</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 mr-3">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>2 hard skills</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>4 soft skills</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-sm-7" style="margin-right: 64px;">
+                                    <div style="width: 119%;" class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>Lorem ipsumdolor sit amet consecteur</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="row search_categories p-2">
+                                        <div class="select">
+                                            <select>
+                                                <option>3 months</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>                           
+                                </div>
+                            </div>
+                            <div id="addtop_respo">
+                                <div id="position" class="row mt-5 mb-5">
+                                    <div class="p-2" style="width: 95%; color: rgb(151,151,151); border-bottom: 1px solid rgb(230,230,230);">
+                                        Position of responsibility #1
+                                    </div>
+                                    <div class="col-sm-8 mr-2">
+                                        <div class="row search_categories px-2">
+                                            <input type="text" placeholder="Contingent leader" value="Contingent leader">
+                                            <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                        </div>
+                                        <div class="row search_categories px-2">
+                                            <input type="text" placeholder="Contingent for Mental Health Conference" value="Contingent for Mental Health Conference">
+                                            <i class="fas fa-pen mt-3" style="color: rgb(203,203,203);"></i>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-5 mr-3">
+                                                <div class="row search_categories p-2">
+                                                    <div class="select">
+                                                        <select>
+                                                            <option>Mental health</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="row search_categories py-2">
+                                                    <div class="select">
+                                                        <select>
+                                                            <option>Inter-college (Friendly)</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-5 mr-3">
+                                                <div class="row search_categories p-2">
+                                                    <div class="select">
+                                                        <select>
+                                                            <option>1 hard skill</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="row search_categories py-2">
+                                                    <div class="select">
+                                                        <select>
+                                                            <option>5 soft skills</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row search_categories p-2" style="width: 102.5%;">
+                                            <div class="select">
+                                                <select>
+                                                    <option>Adipisicing elit, sed do eiusmod tempor</option>
+                                                </select>                                       
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="col-sm-12">
+                                            <div class="row search_categories py-2">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Senior member</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="row search_categories py-2">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Team</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="row search_categories py-2">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>5-10 people</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="row search_categories">
+                                                <div class="select">
+                                                    <input type="date">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="row search_categories">
+                                                <div class="select">
+                                                    <input type="date" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row p-2" title="on clicking check above in critical projects to add new one" id="addc_proj" style="color: rgb(151,151,151); border-bottom: 1px solid rgb(230,230,230); cursor: pointer;">
+                                    Add another Critical project
+                            </div>
+                            <div class="row p-2 mt-5 mb-5" title="on clicking check above in position of responsibility to add new one" id="addp_respo" style="color: rgb(151,151,151); border-bottom: 1px solid rgb(230,230,230); cursor: pointer;">
+                                    Add another position of responsibility
+                            </div>
+                            <!--Buttons save delete close-->
+                            <div class="float-right pr-5 mb-5 row">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <button class="btns-grp-l btn-lg">Delete</button>
+                                    <button class="btns-grp-l btn-lg">Close</button>
+                                    <button class="btns-grp-l btn-lg">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" style="background: rgb(0,206,209);">
+                            <div class="col-sm-12 text-center">
+                                <i class="mt-5 pt-4 fas fa-fingerprint" style="font-size: 65px; color: rgb(0,151,153);"></i>
+                            </div>
+                            <div class="col-sm-12 py-4" style="color: white;">
+                                <h5 class="h5 font-weight-lighter">As you fill up your profile, this section</h5>
+                                <h5 class="h5 font-weight-lighter">will show relevant opportunities</h5>
+                            </div>
+                            <div class="row py-2" style="margin-top: 
+                            77px; background: rgb(0,170,173);">
+                                <div class="text-center col-sm-12">
+                                    <h5 class="h5 font-weight-lighter text-white">How do you value these factors</h5>
+                                </div>
+                            </div>
+                            <!--Remuneration-->
+                            <div class="mt-5 col-sm-12">
+                                <h5 class="h5 mb-0 pb-0 text-white font-weight-lighter">Remuneration</h5>
+                                <div class="col-sm-12 py-5 px-4 position-absolute">
+                                    <div style="width: 50%; float: left;"><h6 class="h6 text-white font-weight-lighter">Matters little</h6></div>
+                                    <div style="width: 50%; float: left;"><h6 class="h6 text-white font-weight-lighter">Most important</h6></div>
+                                </div>
+                                <div style="width: 100%; height: 100px; position: absolute;"></div>
+                                <input class="slider px-3" value="50" min="0" max="100" name="rangeslider" type="range" />
+                            </div>
+                            <!--Company size-->
+                            <div class="mt-4 col-sm-12">
+                                <h5 class="h5 mb-0 pb-0 text-white font-weight-lighter">Company size</h5>
+                                <div class="col-sm-12 py-5 px-4 position-absolute">
+                                    <div style="width: 50%; float: left;"><h6 class="h6 text-white font-weight-lighter">Matters little</h6></div>
+                                    <div style="width: 50%; float: left;"><h6 class="h6 text-white font-weight-lighter">Most important</h6></div>
+                                </div>
+                                <div style="width: 100%; height: 100px; position: absolute;"></div>
+                                <input class="slider px-3" value="50" min="0" max="100" name="rangeslider" type="range" />
+                            </div>
+                            <!--Location-->
+                            <div class="mt-4 col-sm-12">
+                                <h5 class="h5 mb-0 pb-0 text-white font-weight-lighter">Location</h5>
+                                <div class="col-sm-12 py-5 px-4 position-absolute">
+                                    <div style="width: 50%; float: left;"><h6 class="h6 text-white font-weight-lighter">Matters little</h6></div>
+                                    <div style="width: 50%; float: left;"><h6 class="h6 text-white font-weight-lighter">Most important</h6></div>
+                                </div>
+                                <div style="width: 100%; height: 100px; position: absolute;"></div>
+                                <input class="slider px-3" value="50" min="0" max="100" name="rangeslider" type="range" />
+                            </div>
+                            <div class="col-sm-12 mt-5">
+                                <div class="mr-3 form float-left">
+                                    <input type="checkbox" id="check" checked/>
+                                    <label for="check" style="--d: 35px;">
+                                    <svg viewBox="0,0,50,50">
+                                        <path d="M5 30 L 20 45 L 45 5"></path>
+                                    </svg>
+                                    </label>
+                                </div>
+                                <select id="decision" style="width: 250px; font-size: 20px; height: 33px; border: none; border-bottom: 1px solid rgb(0,162,164); color: rgb(0,162,164); background: rgb(0,206,209);">
+                                        <option for="decision">Willing to migrate to:</option>
+                                </select>
+                            </div>
+                            <div class="row my-5 mx-4 py-2 bg-white">
+                                <div class="text-center col-sm-12">
+                                    <h5 class="h5 font-weight-regular" style="color: rgb(0,206,209);">Awaiting more input</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-sm-12 footer pt-4 px-0" style="background: rgb(217,217,217); color: rgb(78,78,78); height: auto;">
+                <div class="container px-5" style="height: 50px;">
+                    <div class="container px-5">
+                        <div class="container px-5">
+                                <div class="m-0 p-0 text-center float-left">About us</div>
+                                <b class="pt-2 m-0 col-12 col-sm-1 float-left" style="color: rgb(255,255,255);"><i style="font-size: 6px;" class="fas fa-circle"></i></b>
+                                <div class="p-0 text-center float-left">Contact us</div>
+                                <b class="pt-2 col-12 col-sm-1 float-left" style="color: rgb(255,255,255);"><i style="font-size: 6px;" class="fas fa-circle"></i></b>
+                                <div class="p-0 text-center float-left">Terms & conditions</div>
+                                <b class="pt-2 col-12 col-sm-1 float-left" style="color: rgb(255,255,255);"><i style="font-size: 6px;" class="fas fa-circle"></i></b>
+                                <div class="p-0 text-center float-left">Privacy policy</div>
+                                <b class="pt-2 col-12 col-sm-1 float-left" style="color: rgb(255,255,255);"><i style="font-size: 6px;" class="fas fa-circle"></i></b>
+                                <div class="p-0 text-center float-left">FAQs</div>
+                                <b class="pt-2 col-12 col-sm-1 float-left" style="color: rgb(255,255,255);"><i style="font-size: 6px;" class="fas fa-circle"></i></b>
+                                <div class="p-0 text-center float-left">Blog</div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
